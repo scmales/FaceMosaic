@@ -2,7 +2,7 @@ import MainUI
 from PyQt5.QtWidgets import QApplication, QMainWindow, QFileDialog
 import sys
 import os
-from facedetection import FaceMoosaic
+from faceMosaic import FaceMosaic
 
 class MainWindow(QMainWindow, MainUI.Ui_MainWindow):
     def __init__(self):
@@ -38,7 +38,7 @@ class MainWindow(QMainWindow, MainUI.Ui_MainWindow):
 
     def on_save(self):
 
-        model = FaceMoosaic(self.imgDir, self.imgPath, self.saveDirectory)
+        model = FaceMosaic(self.imgDir, self.imgPath, self.saveDirectory)
         if model.flag_source == False:
             self.label_2.setText("加载模型失败!")
             self.label_1.setText("加载模型失败!")

@@ -1,9 +1,9 @@
 import cv2
 import os
 
-class FaceMoosaic():
+class FaceMosaic():
     def __init__(self, inputDir, inputFileName, outputDir):
-        super(FaceMoosaic, self).__init__()
+        super(FaceMosaic, self).__init__()
         self.flag_source = True
         self.flag_single = True
         self.flag_multi = True

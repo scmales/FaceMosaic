@@ -4,11 +4,6 @@ __pycache__/
 *$py.class
 
 #Picture
-*.JPG
-/input/*.jpg
-/output/*.jpg
-/input/*.JPG
-/output/*.JPG
 
 #pyinstalelr
 *.spec

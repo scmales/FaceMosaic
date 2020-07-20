@@ -5,8 +5,10 @@ __pycache__/
 
 #Picture
 *.JPG
-/input/1.jpg
-/output/1.jpg
+/input/*.jpg
+/output/*.jpg
+/input/*.JPG
+/output/*.JPG
 
 #pyinstalelr
 *.spec

@@ -59,5 +59,5 @@ class FaceMosaic():
             for j in range(int(w/size)):
                 for m in range(size):
                     for n in range(size):
-                        #img[y+i*size+m][x+j*size+n] = img[y+i*size][x+j*size]
-                        img[y + i * size + m][x + j * size + n] = 1
+                        img[y+i*size+m][x+j*size+n] = img[y+i*size][x+j*size]
+                        # img[y + i * size + m][x + j * size + n] = 1
